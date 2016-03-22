@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Background Color Demo</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<style type="text/css">
+			/*Set div height and  width*/
+			#customid {
+			    width: 100%;
+			    height: vh;
+			}
+		</style>
+	</head>
+	<body id="customid" onload = "changeBackground(0)" >
+		<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#fff;">
+        <div class="container">
+        <div class=" col-sm-12 col-md-12 col-lg-12 navbar-header">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="col-xs-2 col-sm-4 col-md-6 col-lg-6" style="padding-bottom:5px;">
+          <a class="navbar-brand" href="/">
+            <img alt="Kelly Tech" height="25px" src="http://kelly.tech/wp-content/uploads/2015/11/My-mock-2.jpg">
+          </a>
+          </div>
+          <div align="right" style="float:right;padding:15px;"class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
+              </div>
+        </div>
+        </div>
+      </div>
+    </nav>
+		<div style=" padding:200px 20px 20px;height:100%;" class="col-md-12">
+			<center>
+				<div style="color:#ffffff;font-family: 'Inconsolata', ;"> <h1 style="font-size:82px;margin:10px;padding:10px;">Back FLIP</h1><small style="color:#ffffff;font-size:12px;">A jquery plugin that allows you to dynamically change the background colors of a container or div.</small><br><a href="" style="margin-top:10px;padding: 5px 20px;"class="btn btn-default">Star <i class="fa fa-star"></i></a></div>
+			</center>
+		</div>
+		<!-- Use jquery javascript -->
+		<script src="http://code.jquery.com/jquery-1.8.0.js"></script>
+		<!-- Change randomly background color through this js -->
+		<script type="text/javascript">
+		// List of color array
+		colors = new Array('#2388e5', '#3994e8', '#50a1ea','#67aded', '#7eb9f0');
+		// call function with tic = 0 value
+			function changeBackground(tic){
+				//check array length 
+				tic %= colors.length;
+				//set background color
+				document.getElementById('customid').style.background = colors[tic]
+				//set time 
+				setTimeout("changeBackground("+(tic+1)+")", 2000);
+			}
+
+		</script>
+	</body>
+</html>
