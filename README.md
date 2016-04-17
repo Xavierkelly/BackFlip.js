@@ -16,7 +16,7 @@ A jquery plugin that allows you to dynamically change the background colors of a
 colors = new Array('#2388e5', '#3994e8', '#50a1ea','#67aded', '#7eb9f0');
 ```
 
-###### call function with count = 0 value 
+###### Call function with count = 0 
 ```
 function changeBackground(count){
 /* check array length */
