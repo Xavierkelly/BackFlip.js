@@ -9,7 +9,7 @@ A jquery plugin that allows you to dynamically change the background colors of a
 - [Jquery](https://jquery.com/)
 - [Google Font](https://www.google.com/fonts)
 
-### How to Change dynamically background color with JavaScript
+### How to Change/Update dynamically background color with JavaScript
 
 ###### Add your hex color to the array
 ```
