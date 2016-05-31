@@ -13,7 +13,7 @@ A jquery plugin that allows you to dynamically change the background colors of a
 
 ### How to Change/Update dynamically background color with JavaScript
 
-###### Add your hex color to the array
+###### Add and choose your hex color to the array. You can add as many as you like.
 ```
 colors = new Array('#2388e5', '#3994e8', '#50a1ea','#67aded', '#7eb9f0');
 ```
