@@ -1,3 +1,4 @@
+console.log("BackFilp.js: by Xavier Kelly has Properly loaded Enjoy");
 // Chose your color for the array
 colors = new Array('#2388e5', '#3994e8', '#50a1ea','#67aded', '#7eb9f0');
 // call function with tic = 0 value
