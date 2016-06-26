@@ -1,0 +1,40 @@
+#customid {
+			    width: 100%;
+			    height: vh;
+			}
+			.githubBtn{
+				color:#808080;text-decoration:none;
+			}
+			.fullScreen{
+				 padding:200px 20px 20px;height:100%;
+			}
+			.nav-bar{
+				background-color:#fff;
+			}
+			.paddingBottom{
+				padding-bottom:5px;
+			}
+			.floatRight{
+				float:right;padding:15px;
+			}
+			.headerOne{
+				font-size:84px;margin:10px;padding:10px;	
+			}
+			.headerOneFont{
+				color:#ffffff;font-family: 'Inconsolata' ;
+			}
+			.subHeader{
+				color:#ffffff;font-size:12px;
+			}
+			.iconColor{
+				color:#ffffff;
+			}
+			.tagLine{
+				font-size:11px;
+			}
+			.textDoc{
+				text-decoration:none;
+			}
+			.zeroPadMargin{
+				padding:0px;margin:0px;
+			}
